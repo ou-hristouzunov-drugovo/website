@@ -65,7 +65,7 @@ $( document ).ready(function() {
     $tableOfContents.css({paddingBottom: $postamble.outerHeight()});
 
     // add TOC button
-    var toggleSidebar = $('<div id="toggle-sidebar"><a href="#table-of-contents"><h2>Содржина</h2></a></div>');
+    var toggleSidebar = $('<div id="toggle-sidebar"><a href="#table-of-contents"><h2>Мени</h2></a></div>');
     $('#content').prepend(toggleSidebar);
 
     // add close button when sidebar showed in mobile screen
