@@ -32,7 +32,15 @@
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
-  
+
+#tabela-skrol {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap; /* Prevents text inside cells from wrapping to a new line */
+}
+
+}	
 .banner {
     width: 70%;
     margin: 0 auto;
@@ -1379,7 +1387,7 @@
 <div id="outline-container-org3741e86" class="outline-2">
 <h2 id="org3741e86">Податоци за бројот на ученици</h2>
 <div class="outline-text-2" id="text-org3741e86">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<table id="tabela-skrol" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
 <colgroup>
